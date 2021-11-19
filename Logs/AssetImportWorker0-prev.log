@@ -1,0 +1,227 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 8077 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\_Unity\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/_Unity/Shoot-Stack-3D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61665
+Successfully changed project path to: D:/_Unity/Shoot-Stack-3D
+D:/_Unity/Shoot-Stack-3D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 86.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path D:/_Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/_Unity/Shoot-Stack-3D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   26.21.14.4193
+Initialize mono
+Mono path[0] = 'D:/_Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/_Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/_Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/_Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003557 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.524 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.627 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1221 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.4 MB.
+System memory in use after: 63.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1659.
+Total: 3.444200 ms (FindLiveObjects: 0.252900 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.982800 ms  DeleteObjects: 0.115600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/AssetsDownloaded/DungeonTraps/Trap/SawBlade.FBX
+  artifactKey: Guid(e3a25d4ccafb5c740aa3c70982a173e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/DungeonTraps/Trap/SawBlade.FBX using Guid(e3a25d4ccafb5c740aa3c70982a173e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2619ac795b41251c824c09536379cbfb') in 0.430244 seconds
+  Import took 0.435769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.659723 seconds.
+  path: Assets/AssetsDownloaded/DungeonTraps/Trap/BladeFrame.FBX
+  artifactKey: Guid(f21a06c8e9720ef4d8c84b13183cf183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/DungeonTraps/Trap/BladeFrame.FBX using Guid(f21a06c8e9720ef4d8c84b13183cf183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7da9351f34ddd02194fb1a8be0e6cda') in 0.032115 seconds
+  Import took 0.035090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002145 seconds.
+  path: Assets/AssetsDownloaded/DungeonTraps/Trap/BladeFrame.FBX
+  artifactKey: Guid(f21a06c8e9720ef4d8c84b13183cf183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/DungeonTraps/Trap/BladeFrame.FBX using Guid(f21a06c8e9720ef4d8c84b13183cf183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7da9351f34ddd02194fb1a8be0e6cda') in 0.027543 seconds
+  Import took 0.031136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.479955 seconds.
+  path: Assets/AssetsDownloaded/DungeonTraps/Trap/SawBladeFrameBar.FBX
+  artifactKey: Guid(45cdd7be55c783844add8ed6d9828f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/DungeonTraps/Trap/SawBladeFrameBar.FBX using Guid(45cdd7be55c783844add8ed6d9828f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd233901ce9eee65b354b5bcadb546c5b') in 0.032339 seconds
+  Import took 0.035805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001744 seconds.
+  path: Assets/AssetsDownloaded/DungeonTraps/Trap/SawBladeFrameBar.FBX
+  artifactKey: Guid(45cdd7be55c783844add8ed6d9828f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/DungeonTraps/Trap/SawBladeFrameBar.FBX using Guid(45cdd7be55c783844add8ed6d9828f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd233901ce9eee65b354b5bcadb546c5b') in 0.026402 seconds
+  Import took 0.029945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.186465 seconds.
+  path: Assets/AssetsDownloaded/DungeonTraps/Trap/SawBladeFrameCap.FBX
+  artifactKey: Guid(08b067646baffe04ea136d5357680c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/DungeonTraps/Trap/SawBladeFrameCap.FBX using Guid(08b067646baffe04ea136d5357680c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e47020ee846ce4a0bd1a5828aa6dd58') in 0.027965 seconds
+  Import took 0.030995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011173 seconds.
+  path: Assets/AssetsDownloaded/DungeonTraps/Trap/SawBladeFrameCap.FBX
+  artifactKey: Guid(08b067646baffe04ea136d5357680c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/DungeonTraps/Trap/SawBladeFrameCap.FBX using Guid(08b067646baffe04ea136d5357680c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e47020ee846ce4a0bd1a5828aa6dd58') in 0.026564 seconds
+  Import took 0.030837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.316330 seconds.
+  path: Assets/AssetsDownloaded/Ammunition pack (demo)/Meshes
+  artifactKey: Guid(70616657e152c1649a65b3b1bbc6cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Ammunition pack (demo)/Meshes using Guid(70616657e152c1649a65b3b1bbc6cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6ad4a5deeb80e3a2473f7ad61aaba4') in 0.008414 seconds
+  Import took 0.011777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/AssetsDownloaded/Ammunition pack (demo)/Meshes
+  artifactKey: Guid(70616657e152c1649a65b3b1bbc6cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Ammunition pack (demo)/Meshes using Guid(70616657e152c1649a65b3b1bbc6cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6ad4a5deeb80e3a2473f7ad61aaba4') in 0.004577 seconds
+  Import took 0.007877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009327 seconds.
+  path: Assets/AssetsDownloaded/Ammunition pack (demo)/Meshes/Bullet2.FBX
+  artifactKey: Guid(b2f695bc23f31d848a2fbf5103689a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Ammunition pack (demo)/Meshes/Bullet2.FBX using Guid(b2f695bc23f31d848a2fbf5103689a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa8b6af3da1f96ddc5806fb700fb355') in 0.160610 seconds
+  Import took 0.164917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.486978 seconds.
+  path: Assets/AssetsDownloaded/Kevin Iglesias/Hand Poses
+  artifactKey: Guid(0ab0969c757d03f4d8cd0be17dd8145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Kevin Iglesias/Hand Poses using Guid(0ab0969c757d03f4d8cd0be17dd8145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125d012b3aa7e8ea7a4cb7ab20c53bfc') in 0.155130 seconds
+  Import took 0.185928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.823143 seconds.
+  path: Assets/AssetsDownloaded/Kevin Iglesias/Hand Poses/Hand Poses - Demo Scene.unity
+  artifactKey: Guid(009a7b8519013d24ab813e0496132e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Kevin Iglesias/Hand Poses/Hand Poses - Demo Scene.unity using Guid(009a7b8519013d24ab813e0496132e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b68acbe3dea406be13bb4b90aab05d') in 0.007403 seconds
+  Import took 0.010706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.777564 seconds.
+  path: Assets/AssetsDownloaded/Low Poly Weapons VOL.1/Models
+  artifactKey: Guid(c2ea3f448776c9645ba9ffd49106fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Low Poly Weapons VOL.1/Models using Guid(c2ea3f448776c9645ba9ffd49106fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b431c93cd218f5955542ca497807645e') in 0.027997 seconds
+  Import took 0.046211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.837246 seconds.
+  path: Assets/AssetsDownloaded/Low Poly Weapons VOL.1/Models/M1911.fbx
+  artifactKey: Guid(b812e42521a5a27499e76cc5ed56e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Low Poly Weapons VOL.1/Models/M1911.fbx using Guid(b812e42521a5a27499e76cc5ed56e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dadfdf8ccae56b58e4843132eacd40c') in 0.070694 seconds
+  Import took 0.105004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.535012 seconds.
+  path: Assets/AssetsDownloaded/Low Poly Weapons VOL.1/Sample_SceneSettings.lighting
+  artifactKey: Guid(44f6d813fe6785943b1e21b377d2b889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Low Poly Weapons VOL.1/Sample_SceneSettings.lighting using Guid(44f6d813fe6785943b1e21b377d2b889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce62409ffa4bf3af5f2c560e4ec67c3f') in 0.036855 seconds
+  Import took 0.043295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050658 seconds.
+  path: Assets/AssetsDownloaded/Low Poly Weapons VOL.1/Sample_SceneSettings.lighting
+  artifactKey: Guid(44f6d813fe6785943b1e21b377d2b889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDownloaded/Low Poly Weapons VOL.1/Sample_SceneSettings.lighting using Guid(44f6d813fe6785943b1e21b377d2b889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce62409ffa4bf3af5f2c560e4ec67c3f') in 0.013532 seconds
+  Import took 0.019721 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011992 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+Temp/RoslynAnalysisRunner has been deleted.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.760 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 3.065400 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.565000 ms  DeleteObjects: 0.182600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
