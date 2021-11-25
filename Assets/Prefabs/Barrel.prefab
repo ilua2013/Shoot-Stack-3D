@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 802920904432433768}
   - component: {fileID: 802920904432433769}
   - component: {fileID: 802920904432433774}
+  - component: {fileID: 8515483748167708261}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 569113400435513477}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 2.57, y: 1.4999943, z: 12.77}
-  m_LocalScale: {x: 60, y: 60, z: 60}
+  m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children:
   - {fileID: 804659664664375282}
   - {fileID: 802920903779310083}
@@ -64,10 +65,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.015377424
-  m_Height: 0.056625847
+  m_Radius: 0.052387767
+  m_Height: 0.19634852
   m_Direction: 2
-  m_Center: {x: 0.0005899167, y: 0, z: 0.0020303463}
+  m_Center: {x: -0.00066466135, y: -1.4547156e-17, z: 0.026412884}
 --- !u!114 &802920904432433768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,8 +82,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 25
-  _forceExploission: 51.13
-  i: 0
 --- !u!114 &802920904432433769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,6 +106,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a244abab46f204b9be3fd70062a6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8515483748167708261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569113400435513477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafd0a8e9ee856a49bf432688899df59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangeType: 0
+  fadeType: 2
+  range: 0.5
+  strength: 3
+  variation: 42
+  chaos: 40
+  forceByMass: 0
+  affectKinematic: 0
+  heightOffset: 0
+  delay: 0
+  destroy: 0
+  applyDamage: 0
+  damageValue: 500
+  play: 0
+  volume: 1
+  clip: {fileID: 0}
+  transForm: {fileID: 0}
+  bombPosition: {x: 0, y: 0, z: 0}
+  explPosition: {x: 0, y: 0, z: 0}
+  colliders: []
+  projectiles: []
+  rigidbodies: []
+  showGizmo: 0
+  mask: -1
+  tagFilter: Untagged
 --- !u!1 &802920903779310082
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,15 +169,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802920903779310082}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0011}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_LocalPosition: {x: 0, y: 0, z: -0.257}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 913726271042601535}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.0104}
+  m_AnchoredPosition: {x: 0.1185, y: 0.0594}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &802920903779310081
@@ -232,12 +268,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3.15
+  m_fontSize: 1.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 1.55
-  m_fontSizeMax: 73.28
+  m_fontSizeMin: 0
+  m_fontSizeMax: 1.2
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -268,7 +304,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 9.588514, y: 1.7863914, z: 9.579978, w: 2.7724652}
+  m_margin: {x: 9.643089, y: 1.7863914, z: 10.117767, w: 3.0450425}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -288,8 +324,8 @@ GameObject:
   - component: {fileID: 4752946812183897114}
   - component: {fileID: 8040977203336989545}
   - component: {fileID: 5884606744428786099}
-  - component: {fileID: 414083168674428346}
-  - component: {fileID: 8228813744898874384}
+  - component: {fileID: 6938109625679401533}
+  - component: {fileID: 4586391401889223725}
   m_Layer: 0
   m_Name: BarrelMesh
   m_TagString: Untagged
@@ -377,7 +413,7 @@ MonoBehaviour:
   _red: {fileID: 2100000, guid: dff7b98dab6f8714bbedf4784a102c8f, type: 2}
   _yellow: {fileID: 2100000, guid: f4a4c86da12b29946bc8d6ba50fa6143, type: 2}
   _green: {fileID: 2100000, guid: b009e673478dcc449a4967998c36e107, type: 2}
---- !u!114 &414083168674428346
+--- !u!114 &6938109625679401533
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -398,10 +434,10 @@ MonoBehaviour:
     material: {fileID: 0}
     massBy: 0
     mass: 0.1
-    colliderType: 0
-    planarCheck: 1
+    colliderType: 4
+    planarCheck: 0
     ignoreNeighbour: 0
-    useGravity: 0
+    useGravity: 1
     solverIterations: 6
     dampening: 0.7
     rigidBody: {fileID: 0}
@@ -418,9 +454,9 @@ MonoBehaviour:
     unyielding: 0
     activatable: 0
   limitations:
-    solidity: 0.1
+    solidity: 0.2
     depth: 1
-    time: 1
+    time: 0.15
     size: 0.1
     visible: 0
     sliceByBlade: 0
@@ -428,17 +464,17 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 10
-    variation: 50
+    amount: 35
+    variation: 0
     depthFade: 0.5
     contactBias: 0.75
-    seed: 1
+    seed: 10
     useShatter: 0
     meshInput: 9
     properties:
-      colliderType: 1
-      sizeFilter: 10
-      decompose: 1
+      colliderType: 0
+      sizeFilter: 0
+      decompose: 0
       removeCollinear: 1
       layer: 
     runtimeCaching:
@@ -517,7 +553,7 @@ MonoBehaviour:
     multiplier: 1
   fading:
     onDemolition: 1
-    onActivation: 0
+    onActivation: 1
     lifeType: 4
     lifeTime: 7
     lifeVariation: 3
@@ -549,7 +585,7 @@ MonoBehaviour:
   dustList: []
   restriction: {fileID: 0}
   sound: {fileID: 0}
---- !u!65 &8228813744898874384
+--- !u!65 &4586391401889223725
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -558,10 +594,10 @@ BoxCollider:
   m_GameObject: {fileID: 3956987737075169477}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.01}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.057845443, y: 0.033291087, z: 0.15071456}
+  m_Center: {x: 0.0003806005, y: -0.0049946406, z: 0.025357557}
 --- !u!1001 &802920903656035722
 PrefabInstance:
   m_ObjectHideFlags: 0

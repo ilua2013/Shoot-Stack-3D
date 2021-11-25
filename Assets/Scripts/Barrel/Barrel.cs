@@ -5,18 +5,18 @@ using UnityEngine.Events;
 using RayFire;
 
 [RequireComponent(typeof(BarrelText))]
+[RequireComponent(typeof(Collider))]
 public class Barrel : MonoBehaviour
 {
     [SerializeField] private int _health;
-    [SerializeField] private float _forceExploission;
 
     private RayfireRigid _rayfireRigid;
+    private RayfireBomb _rayfireBomb;
     private ParticleSystem _particle;
     private List<Transform> _details = new List<Transform>();
+    private Collider _collider;
     private bool _startCoroutine;
     private bool _exploission;
-
-    [SerializeField]private bool i;
 
     public event UnityAction HealthChanged;
     public event UnityAction IsDestroyed;
@@ -26,23 +26,9 @@ public class Barrel : MonoBehaviour
     private void Start()
     {
         _particle = GetComponentInChildren<ParticleSystem>();
+        _collider = GetComponent<Collider>();
+        _rayfireBomb = GetComponent<RayfireBomb>();
         _rayfireRigid = GetComponentInChildren<RayfireRigid>();
-
-        _rayfireRigid.NeedExploision += Exploission;
-    }
-
-    private void Update()
-    {
-        if (i)
-        {
-            i = false;
-            Exploission();
-        }
-    }
-
-    private void OnDisable()
-    {
-        _rayfireRigid.NeedExploision -= Exploission;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -67,19 +53,16 @@ public class Barrel : MonoBehaviour
     private IEnumerator Destroy()
     {
         _exploission = true;
+        _collider.enabled = false;
+
         _rayfireRigid.Demolish();
+        _rayfireBomb.Explode(0);
 
         _particle.Play();
 
         yield return new WaitForSeconds(_particle.startLifetime);
 
         Destroy(gameObject);
-    }
-
-    private void Exploission()
-    {
-        foreach (var detail in _details)
-            detail.GetComponent<Rigidbody>().AddForce((detail.position - transform.position).normalized * _forceExploission);
     }
 
     private void ApplyDamage(int damage)
